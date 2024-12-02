@@ -1,5 +1,9 @@
 from text import *
 
+
+button_width, button_height = 150, 50
+spacing = 20
+
 class Button:
     def __init__(self, x, y, width, height, text, font_size=30, text_color=(255, 255, 255), button_color=(0, 0, 255), hover_color=(0, 100, 255)):
         self.rect = pygame.Rect(x, y, width, height)
